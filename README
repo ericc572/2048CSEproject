@@ -1,0 +1,37 @@
+Name: Eric Chen
+cslogin: cs8bakk
+Date: 3/6/2015
+README
+
+Short Answer:
+
+1. To search and replace every instance of the word fun with amazing, 
+enter :%s/fun/amazing/g. To only change the first instance of the word,
+navigate to that line and enter :%s/fun/amazing without the g flag, which 
+only uses the first occurence in the line.
+
+2. To create a directory inside another directory, use the parent command -p
+To make a directory called barDir inside a directory fooDir, enter the 
+command :mkdir -p fooBar/barDir
+
+3. The wildcard character * represents every string used as the argument.
+For example, if we were to list directory :ls *.html, it will list all the 
+files with extension .html. Similarly, the command :rm *.html will remove
+all files with the .html extension in the directory
+
+4. To open all Java files in the current directory, in separate tabs,
+enter the command :gvim -p *.java The star indicates all files to be 
+opened with the .java extension
+
+5. The static keyword in a method means it is associated with the class
+itself, not with any object. This means that there is no calling object
+needed to call upon this method. An example of this is the main, which
+is called by Jave runtime to start an application. 
+
+6. Instead of one large class, she can use one super class and 
+various subclasses to better organize this. ShapeDrawer will be the 
+super class, and methods such as drawBlueCircle will extend it. It will
+inherit all the default methods written in the super class, and if necessary,
+can be overriden with their own unique methods. In object oriented design, 
+this is more practical and made easier for users.
+
